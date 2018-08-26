@@ -1,0 +1,193 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  background: #F5F5F5;
+}
+
+.page-title {
+  font-size: 1.8rem;
+  color: #555;
+  text-transform: uppercase;
+}
+
+.container {
+  margin: 25px 15px 15px 15px;
+  box-sizing: border-box;
+}
+
+.layout-margin { margin: 15px; }
+.layout-padding { padding: 15px; }
+.margin-top { margin-top: 15px; }
+.margin-left { margin-left: 15px; }
+.margin-bottom { margin-bottom: 15px; }
+.margin-right { margin-right: 15px; }
+.padding-top { padding-top: 15px; }
+.padding-left { padding-left: 15px; }
+.padding-bottom { padding-bottom: 15px; }
+.padding-right { padding-right: 15px; }
+
+.text-center { text-align: center; }
+
+#search {
+  width: 40%;
+  padding: 12px 8px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border: 1px solid #DDD;
+}
+
+#search:focus {
+  outline: none;
+}
+
+.employee-card-wrapper {
+  width: 33.3%;
+  float: left;
+}
+
+.employee-card {
+  background-color: #FFF;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border: 1.5px solid #DDD;
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  float: left;
+  box-sizing: border-box;
+  -webkit-transition: border 1s; /* Safari */
+  transition: border 1s;
+}
+
+.employee-card:hover {
+  border-color: #48b94b;
+  cursor: pointer;
+}
+
+.employee-img {
+  width: 100px;
+  height: 100px;
+  background-color: #E9E9E9;
+  border-radius: 50%;
+  float: left;
+}
+
+.employee-info {
+  float: left;
+  margin-left: 15px;
+}
+
+.employee-name {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.employee-email,
+.employee-location {
+  margin-top: 10px;
+  color: #656565;
+  font-size: 1.1rem;
+}
+
+.backdrop {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  opacity: 0.5;
+}
+
+.divider {
+  width: 100%;
+  margin: 20px auto;
+  border-bottom: 1.5px solid #DDD;
+}
+
+.modal {
+  position: absolute;
+  left: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+  background-color: #FFF;
+  border: 1px solid #DDD;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  text-align: center;
+}
+
+.modal-close-btn {
+  text-align: right;
+  margin-right: 15px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #656565;
+}
+
+.modal-close-btn:hover {
+  cursor: pointer;
+  color: #777;
+}
+
+.modal-employee-img-wrapper { text-align: center; }
+
+.modal-employee-img {
+  width: 125px;
+  height: 125px;
+  background-color: #E9E9E9;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+.modal-employee-name {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.modal-employee-email,
+.modal-employee-location,
+.modal-employee-cell,
+.modal-employee-address,
+.modal-employee-birthday {
+  margin-top: 10px;
+  color: #656565;
+  font-size: 1rem;
+}
+
+.modal-navigation-btn {
+  background-color: #15cc09;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  padding: 10px;
+}
+
+.modal-navigation-btn:hover,
+.modal-navigation-btn:focus,
+.modal-navigation-btn:active {
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+#prev-employee-btn {
+  background-color: #53b6f0;
+  border: 1px solid #53b6f0;
+  color: #FFF;
+}
+
+#next-employee-btn {
+  background-color: #48b94b;
+  border: 1px solid #48b94b;
+  color: #FFF;
+}
